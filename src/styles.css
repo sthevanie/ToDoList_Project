@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(180deg, #050633 0%, #8b8cec 100%);
+  color: white;
+  font-family: Segoe UI;
+  min-height: 100vh;
+}
+header {
+  font-size: 20px;
+  text-align: center;
+}
+header h2 {
+  font-weight: normal;
+  font-size: 16px;
+}
+form {
+  min-height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form input {
+  padding: 10px;
+  font-size: 18px;
+  border: 0.5px solid black;
+  background: white;
+}
+form button {
+  font-size: 12px;
+  padding: 13.5px;
+  font-weight: bolder;
+  font-family: tahoma;
+  color: #08023f;
+  border: 0.5px solid black;
+  background: #f7fffe;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+form button:hover {
+  background: #08023f;
+  color: white;
+}
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-list {
+  min-width: 70%;
+}
+
+.todo {
+  margin: 5px 150px;
+  font-size: 15px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 2s;
+}
+.todo li {
+  flex: 1;
+  background-color: white;
+  color: black;
+  list-style: none;
+  padding: 5px 5px;
+  margin-right: 5px;
+  margin-left: 3px;
+}
+.todo input {
+  position: relative;
+  width: 20px;
+  cursor: pointer;
+}
+.trsh-btn {
+  background: #ff6f47;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.todo-item {
+  padding: 2px 5px;
+}
+
+.fa-trash {
+  pointer-events: none;
+}
